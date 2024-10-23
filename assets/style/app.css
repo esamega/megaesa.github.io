@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(#30060c 0%, #535353 40%, #0a0a0a 100%);
+    font-family: serif; /* Mengubah font body menjadi serif */
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start; /* Menggeser ke kiri */
+    align-items: center;
+    flex-direction: row; /* Membuat arah kolom menjadi baris */
+    margin-top: 100px;
+}
+
+.profileimage {
+    width: 500px; /* Width of the profile image */
+    margin-right: 20px; /* Memberikan jarak antara gambar dan teks */
+    align-self: flex-start; /* Align the image to the top of the container */
+}
+
+.biodata {
+    background: linear-gradient(#fffeff 0%, #ffffffd5 40%, #fdfdfd00 100%);
+    margin-top: -10px; /* This will remove the gap */
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 200px;
+    padding-top: 80px;
+    font-family: serif; /* Mengubah font di biodata menjadi serif */
+}
+
+.row {
+    padding: 0px 10px;
+    font-family: serif; /* Mengubah font dalam class row menjadi serif */
+}
+
+.achiavement {
+    padding-top: 80px;
+    font-family: serif; /* Mengubah font di achiavement menjadi serif */
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    font-family: serif; /* Mengubah font di kolom menjadi serif */
+}
+
+.columns p {
+    margin: 0;
+    font-family: serif; /* Mengubah font paragraf di kolom menjadi serif */
+}
+
+button.btn-danger {
+    margin-bottom: 30px; /* Adds space between the buttons */
+    font-family: serif; /* Mengubah font tombol menjadi serif */
+}
+
+.footer {
+    background-color: #fff;
+    margin-top: -10px; /* This will remove the gap */
+    padding: 20px;
+    text-align: center;
+    font-family: serif; /* Mengubah font footer menjadi serif */
+}
+
+.contact a {
+    color: #000;
+    font-size: 50px;
+    font-family: serif; /* Mengubah font link di contact menjadi serif */
+}
+
+.biodata h1 {
+    margin-bottom: 30px; /* Sesuaikan nilai ini sesuai kebutuhan */
+    font-family: serif; /* Mengubah font heading di biodata menjadi serif */
+}
+
+.biodata .container .row {
+    margin-top: 20px; /* Menambah jarak antar bagian */
+    font-family: serif; /* Mengubah font kontainer biodata menjadi serif */
+}
+
+.biodata button {
+    margin-top: 15px; /* Menambah jarak di atas tombol */
+    font-family: serif; /* Mengubah font tombol biodata menjadi serif */
+}
+.biodata-item {
+    margin: 10px 0; /* Margin for spacing between items */
+    padding: 10px; /* Padding for better content separation */
+    font-size: 2em; /* Font size for biodata items */
+    color: white; /* Change text color to white */
+    text-align: left; /* Align text to the left */
+    transition: color 0.3s; /* Smooth color transition */
+}
